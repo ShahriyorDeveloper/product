@@ -1,14 +1,10 @@
-<<<<<<< HEAD
 *{
-=======
-* {
->>>>>>> cb05b9d96a595d39a6ebc7185b6eba22b84420d3
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-<<<<<<< HEAD
+
     font-family: "Poppins", serif;
 }
 .container{
@@ -114,32 +110,41 @@ header h1{
     height: 23px;
 }
 .forth{
+    background-color: white;
     max-width: 130px;
     margin-left: 10px;
     border: 1px solid white;
     color: #02897A;
     font-weight: 600px;
 }
+@media screen and (max-width: 920px) {
+    header nav{
+        flex-wrap: wrap;
+    }
+    header nav ul{
+        flex-wrap: wrap;
+    }
+    .header_second{
+        flex-wrap: wrap;
+    }
+    header nav .nav_right{
+        flex-wrap: wrap;
+    }
+    .header_second_right .image{
+        width: 300px;
+        height: 255px;
+    }
+    header nav form{
+        flex-wrap: wrap;
+    }
 
-
-
-
-
-
-=======
 }
+
 
 .quick {
     max-width: 1400px;
     margin: auto;
     border: 2px solid red;
-}
-
-.container {
-    max-width: 1140px;
-    margin: auto;
-    padding: 15px;
-    border: 2px solid red
 }
 
 .quick .quick_nav {
@@ -232,4 +237,4 @@ header h1{
         margin-left: 100px;
     }
 }
->>>>>>> cb05b9d96a595d39a6ebc7185b6eba22b84420d3
+
