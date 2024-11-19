@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1260px;
+  padding: 20px 0px;
+  margin: auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 100px 0px ;
+
+ 
+}
+
+.abubakr h1 {
+  font-family: "Roboto", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #22343d;
+}
+
+.abubakr h2{
+    background: #000;
+    color: white;
+}
+
+.cards .card img {
+  max-width: 100%;
+}
+
+.cards .card h3 {
+  font-family: "Roboto", serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #22343d;
+}
+
+.cards .card p {
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #22343d;
+}
